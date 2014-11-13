@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Runkitty</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="content">
+    <h1>Run Kitty Run</h1>
+
+    <button id="start">Start</button>
+    <button id="go-faster">Go Faster!</button>
+    <button id="stop">Stop</button>
+  </div>
+
+  <div>  
+    <img id="cat" src="http://media.giphy.com/media/ZPMYEo19ReMdq/giphy.gif">
+  </div>
+
+<%= yield %>
+
+</body>
+</html>

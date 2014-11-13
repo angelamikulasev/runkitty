@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+body {
+background: url('http://i248.photobucket.com/albums/gg180/cloezplace/Stars/PastelStarBackground.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  text-align: center;
+  font-family: Amatic SC;
+  font-size: 40px;
+  background: rgba(255,255,255,0.5);
+  margin-left: 57px;
+  margin-right: 57px;
+  padding-bottom: 15px
+}
+
+#cat {
+  position: relative;
+  left: 0px;
+  top: 80px;
+}
+
+.walk-left {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH"
+}
+
+.walk-right {
+  -moz-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  filter: FlipH;
+  -ms-filter: "FlipH"
+}
